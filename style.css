@@ -1,0 +1,34 @@
+body{
+    background-color: darkgray;
+}
+img{
+    width:200px ;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.mae{
+    
+   border: solid 1px black;
+   padding: 5vh;
+   border-radius: 10px;
+
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 1vh;
+    width: 20vw;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(173, 171, 171);
+}
+
+   
