@@ -10,8 +10,9 @@ let mudarI =0;
        
     ]
 function acender(){
-    document.getElementById("img").src="../acesa.png";
-     if (aud2) {
+        let acesa=  document.getElementById("img").src="../acesa.png";
+        acesa.alt="lampada acesa";
+            if (aud2) {
         {
             aud2.currentTime = 0; // reinicia o som
             aud2.play(); }
@@ -21,7 +22,8 @@ function acender(){
  
 }
 function apagar(){
-        document.getElementById("img").src="apagada.png";
+       let apg = document.getElementById("img").src="apagada.png" ;
+       apg.alt="lampada apagada";
          if (aud2) {
         {
             aud2.currentTime = 0; // reinicia o som
@@ -29,28 +31,30 @@ function apagar(){
     
         }
          
-    }
+   }
 
 
 function quebrar(){
-    document.getElementById("img").src="quebrada.png";
-     if (aud1) {
-        {
-            aud1.currentTime = 0; // reinicia o som
-            aud1.play(); }
-    
+        let qbd =  document.getElementById("img").src="quebrada.png";
+        qbd.alt="lampada quebrada";
+        if (aud1) {
+            {
+                aud1.currentTime = 0; // reinicia o som
+                aud1.play(); }
+        
+            }
         }
-    }
-   
+    
 function trocar(){
-    document.getElementById("img").src="apagada.png";
-     if (aud2) {
-        {
-            aud2.currentTime = 0; // reinicia o som
-            aud2.play(); }
-    
-        }
-    
+        let tr = document.getElementById("img").src="apagada.png";
+        tr.alt="lampada trocada";
+            if (aud2) {
+                {
+                    aud2.currentTime = 0; // reinicia o som
+                    aud2.play(); }
+            
+                }
+            
 }
  
 function mudar(){
@@ -62,5 +66,6 @@ function mudar(){
         }
    
     mudarI = (mudarI + 1)% imgs.length;
-    document.getElementById("img").src=imgs[mudarI];
+   let md = document.getElementById("img").src=imgs[mudarI];
+   md.alt="mudar a cor";
 }
