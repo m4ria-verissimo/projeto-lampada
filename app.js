@@ -10,7 +10,7 @@ let mudarI =0;
        
     ]
 function acender(){
-        let acesa=  document.getElementById("img").src="../acesa.png";
+        let acesa=  document.getElementById("img").src="acesa.png";
         acesa.alt="lampada acesa";
             if (aud2) {
         {
