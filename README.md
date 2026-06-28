@@ -26,5 +26,5 @@ Simulador interativo de uma lâmpada que liga, desliga e quebra com JavaScript p
 
 ### 👩‍💻 Desenvolvido por
 Maria Eduarda Verissimo  
-[LinkedIn](https://www.linkedin.com/in/MariaEduarda-Verissimo) | [Portfólio](https://m4ria-verissimo.github.io/CurriculoDevMariaEduardaVerissimo/)
+[LinkedIn](https://www.linkedin.com/in/MariaEduarda-Verissimo)
 
